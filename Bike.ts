@@ -5,7 +5,7 @@ export class Bike {
     this.gear = startingGear;
   }
 
-  public setGear(newGear: string) {
-    this.gear = Number(newGear);
+  public setGear(newGear: number) {
+    this.gear = newGear;
   }
 }
